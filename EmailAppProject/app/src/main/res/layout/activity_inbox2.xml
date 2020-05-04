@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent" android:layout_height="57dp"
+              android:id="@+id/from_inbox2"/>
+    <TextView android:layout_width="match_parent" android:layout_height="62dp"
+              android:id="@+id/subject_inbox2" android:textSize="24sp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="70dp"
+              android:id="@+id/date_inbox2"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+        <TextView android:layout_width="match_parent" android:layout_height="175dp"
+                  android:id="@+id/content_inbox2"/>
+    </ScrollView>
+
+
+</LinearLayout>

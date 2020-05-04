@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyEmailApp</string>
+    <string name="title_activity_inbox">Inbox</string>
+</resources>
